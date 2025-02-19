@@ -1,0 +1,16 @@
+PODS:
+  - MyBaseExtension (0.0.5)
+
+DEPENDENCIES:
+  - MyBaseExtension
+
+SPEC REPOS:
+  trunk:
+    - MyBaseExtension
+
+SPEC CHECKSUMS:
+  MyBaseExtension: b4a156775637f6bea13af8eb3e12d2fb02116fd6
+
+PODFILE CHECKSUM: 77013afd361cada221901810123cb3a676858b3c
+
+COCOAPODS: 1.15.2
