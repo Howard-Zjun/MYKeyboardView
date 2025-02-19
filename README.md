@@ -1,3 +1,5 @@
+自定义键盘简化接入方案
+
 问题1：不同地方需要自定义键盘，重复代码太多
 解决思路：封装`MYKeyboardAcceptModel`，设置需要使用自定义键盘的`UITextField`、`UITextView`
 
