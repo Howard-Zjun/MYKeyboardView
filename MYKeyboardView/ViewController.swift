@@ -22,12 +22,7 @@ class ViewController: UIViewController {
         "privacyPolicyKey"
     }
     
-    // 第一次使用App记录
-    static var firstEnterAppRecord: String {
-        "firstEnterAppRecord"
-    }
-    
-    // 原本的textField
+    /// 原本的TextField
     lazy var sourceTextField: UITextField = {
         let sourceTextField = UITextField.init(frame: CGRect(x: 100, y: 100, width: 200, height: 50))
         sourceTextField.backgroundColor = .init(hex: 0xB9DEE7)
@@ -39,6 +34,7 @@ class ViewController: UIViewController {
         return sourceTextField
     }()
     
+    /// 使用自定义键盘的TextField
     let textFieldAccrptModel = MYKeyboardAcceptModel()
     
     lazy var myTextField: UITextField = {
@@ -79,6 +75,7 @@ class ViewController: UIViewController {
         return attr
     }
     
+    /// 原本的TextView
     lazy var sourceTextView: UITextView = {
         let sourceTextView = UITextView.init(frame: CGRect(x: 100, y: 300, width: 200, height: 200))
         sourceTextView.backgroundColor = .init(hex: 0xB9DEE7)
@@ -87,6 +84,7 @@ class ViewController: UIViewController {
         return sourceTextView
     }()
     
+    /// 使用自定义键盘的TextView
     let textViewAcceptModel = MYKeyboardAcceptModel()
     
     lazy var myTextView: UITextView = {
